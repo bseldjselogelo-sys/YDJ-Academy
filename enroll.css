@@ -1,0 +1,251 @@
+<style>
+body {
+    margin: 0;
+    font-family: Agency FB;
+    background-color: #f4f4f4;
+  }
+  /* Header styles */
+  header {
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+      font-family:'Agency FB'
+  }
+  /* Logo styles */
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    width: 100px;
+    height: 100px;
+  }
+  .logo span {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+  } /* Navigation styles */
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+      font-family:'Agency FB'
+  }
+  nav a:hover {
+    text-decoration: underline; 
+    color: red;
+  }
+  /* Search box styles */
+  .search-container {
+    margin-left: 20px;
+  }
+  .search-container input[type="text"] {
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+      font-family:'Agency FB'
+  }
+  /* Enroll button styles */
+  .enroll-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-left: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+      font-family:'Agency FB'
+  }
+  .enroll-btn:hover {
+    background-color: darkorange;
+  }
+  /* Main content styles */
+  main {
+    background-color: #e0e0e0;
+    padding: 40px 20px;
+  }
+  h1 {
+    text-align: center;
+      font-size: 3em;
+    margin-bottom: 20px;
+  }
+  p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    line-height: 1.6;
+  } 
+  /* Navigation styling */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+      font-family:'Agency FB'
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 15px;
+  }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+      font-family:'Agency FB'
+  }
+
+  /* Search and button container */
+  .header-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* Search bar styling */
+  .search-box {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+      font-family:'Agency FB'
+  }
+
+  /* Enroll now button styling */
+  .enroll-button {
+    background-color: orange;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+      font-family:'Agency FB'
+  }
+
+  /* Main content styling */
+  main {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .enrollment-form {
+  text-align: center;
+}
+
+  h1 {
+    font-family: "Agency FB", Agency FB;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 30px;
+      font-family:'Agency FB'
+  }
+
+  /* Form styling */
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  /* Form group styling */
+  .form-group {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+      font-family:'Agency FB'
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
+
+  input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+
+  /* Submit button styling */
+  .submit-btn {
+    background-color: orange;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+      font-family:'Agency FB'
+  }
+
+/* Footer styles */
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 20px;
+  color: black; /* Set text color to black for all footer text */
+    font-family:'Agency FB'
+}
+
+.footer-column {
+  width: 10%;
+}
+
+.footer-column h3 {
+  margin-bottom: 10px;
+  color: black; /* Ensure h3 headers are black */
+}
+
+.bottom-footer {
+  text-align: center;
+    font-family:'Agency FB'
+}
+
+.quick-links ul {
+  list-style: none;
+  padding: 0;
+  color: black; /* List text color */
+}
+
+.quick-links li {
+  margin-bottom: 8px;
+}
+
+.quick-links a {
+  text-decoration: none;
+  color: black; /* Link color */
+}
+
+.quick-links a:hover {
+  text-decoration: none;
+  color: red; /* Hover color */
+}
+
+.get-in-touch p,
+.follow-us p {
+  margin: 8px 0;
+  color: black; /* Paragraph text color */
+}
+
+.social-icons a {
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: black; /* Icon link color */
+}
+</style>
